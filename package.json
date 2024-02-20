@@ -1,0 +1,21 @@
+{
+  "name": "govtech-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-fakerapi": "npx playwright test tests/fakerRestAPI/fakerRest.spec.ts",
+    "start-saucedemo": "npx playwright test tests/sauceDemo_Login/login.spec.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
