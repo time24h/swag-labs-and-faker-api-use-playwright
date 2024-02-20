@@ -7,9 +7,15 @@
     "start-fakerapi": "npx playwright test tests/fakerRestAPI/fakerRest.spec.ts",
     "start-saucedemo": "npx playwright test tests/sauceDemo_Login/login.spec.ts "
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "automation-web","api","e2e","playwright"
+  ],
+  "author": "wira wardhana",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/time24h/swag-labs-and-faker-api-use-playwright.git"
+  },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
     "@playwright/test": "^1.40.1",
